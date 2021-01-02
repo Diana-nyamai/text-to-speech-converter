@@ -1,5 +1,5 @@
 function textToAudio() {
-    let msg = document.getElementById("text-to-speech").value;
+    let msg = document.getElementById("text-to-speech").textContent;
     
     let speech = new SpeechSynthesisUtterance();
     speech.lang = "en-US";
